@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo-container{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  width: 18rem;
+}
+.logo:hover{
+  opacity: 75%;
+}
+.menu-container{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  background-color: #CDDCE6;
+}
+.categories{
+  flex-direction: row;
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  text-decoration: none;
+  list-style: none;
+  margin: 1rem;
+  color: #3A291C;
+}
+.categories:hover{
+  color: #9B371E;
+}
+.carrito-container{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.carrito{
+  width: 3.5rem;
+  margin-top: -0.4rem;
+  margin-left: 1rem;
+}
+.catalog{
+  text-align: center;
+  margin-top: 2rem;
+  font-size: xx-large;
+  font-family: 'Marcellus', serif;
+}
+.contador{
+  width: 2rem;
+  height: 3rem;
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.contador:hover{
+  border: solid 3px black;
+  background-color: #CDDCE6
+}
+.contadorTitle{
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 2rem;
+}
